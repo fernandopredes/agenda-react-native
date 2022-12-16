@@ -12,5 +12,5 @@ export const signOut = async () =>{
 
 export const getData = async (data) =>{
     
-    return await AsyncStorage.getItem('USER_DATA',content)
+    return await AsyncStorage.getItem('USER_DATA')
 }
